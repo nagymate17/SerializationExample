@@ -28,7 +28,7 @@ public class SerializePerson {
 			file.close();		
 		}catch(IOException e){
 			e.printStackTrace();
-		}finally{
+		//}finally{
 		//	file1.setWritable(false);
 		}
 	}

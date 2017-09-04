@@ -1,7 +1,9 @@
 package com.matenagy.example;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.*;
 
 import org.junit.Test;
 
@@ -28,6 +30,5 @@ public class DeserializePersonTest {
 		p = new DeserializePerson(path).getPersons();
 		assert(p.size() == 2 || p.toString() == one.toString() + two.toString());
 	}
-
 
 }

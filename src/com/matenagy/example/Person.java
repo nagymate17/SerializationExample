@@ -23,5 +23,4 @@ public class Person implements Serializable {
 		return firstName + " " + lastName + " " + age + " years " + weight + " kg";
 	}
 	
-	
 }
